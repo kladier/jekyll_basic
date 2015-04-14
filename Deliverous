@@ -1,0 +1,3 @@
+application:
+  description: Plateforme collaborative SkillReso
+  container: kladier/jekyll_install
