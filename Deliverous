@@ -1,6 +1,6 @@
 blog:
   description: Plateforme collaborative SkillReso
-  container: registry.deliverous.net/kladier/jekyll_install
+  image: registry.deliverous.net/kladier/jekyll_install
   ports:
   - ip: blog
     container_port: 4000
