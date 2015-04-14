@@ -9,12 +9,12 @@ ENV LC_ALL en_US.UTF-8
 
 RUN apt-get -y install make g++ python git ruby ruby-dev gem
 
-#Do not forget to install your markdown converter gem  
+#Do not forget to install your markdown converter gem
 #( e.g. kramdown or rdisount)
 RUN gem install bundler therubyracer jekyll
 
 #Download your jekyll website repository from github
-RUN git clone https://github.com/kladier/jekyll_test.git
+ADD . /websiterepository
 
 #Set the default workdir
 WORKDIR /websiterepository
