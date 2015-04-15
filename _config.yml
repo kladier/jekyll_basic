@@ -1,15 +1,13 @@
 # Site settings
 title: Blog SkillReso
-email: kevin.ladier@gmail.com
+email: contact@skillreso.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  N'avez vous jamais dû aller chercher votre belle-mère pour qu'elle récupère sa 4L, réparée dans un garage à 20 km de chez vous, après avoir supplié votre chef de vous laisser une petite heure dans votre après-midi de travail? Notre application permet à Belle Maman et à tout autre personne de commander ses entretiens et réparations mécaniques à une communauté de mécaniciens indépendants, près de chez elle, avec une intervention sur place.  Alors, vous nous suivez ou vous laissez encore des générations de Gendres dans la souffrance?
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "0.0.0.0" # the base hostname & protocol for your site.
 host: 0.0.0.0
-twitter_username: 
-github_username:  kladier
+twitter_username: skillreso 
+github_username:  skillreso
 
 # Build settings
 markdown: kramdown
